@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 # C extensions
 *.so
 
@@ -169,3 +170,23 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+# Virtual environment
+venv/
+env/
+*.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Media and static files
+/media
+/staticfiles
+
+# Secrets
+*.venv
+>>>>>>> eafea5a (Initial commit)
